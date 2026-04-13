@@ -32,7 +32,7 @@ sidebar:
   # mastodon: # Please include your full Mastodon link here.
   # hackerrank: # Please provide your HackerRank username.
   # leetcode: # Please provide your LeetCode username.
-  pdf: assets/images/Resume-Sep-19-2025.pdf # Add a PDF link here if you want to include a PDF custom version in your resume.
+  pdf: assets/images/Resume.pdf # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
@@ -65,21 +65,22 @@ sidebar:
 career-profile:
   title: About
   summary: |
-    I'm an embedded software engineer with experience building real-time, multi-threaded systems in C++ and Python. At MITRE, I developed a configurable GNSS/GPS receiver for the NTS-3 satellite program and worked on next-gen GPS technologies. My background also includes research in medical imaging and sensor systems, with published work on an implantable cancer sensor and optical imaging. I hold a B.S. in Electrical and Computer Engineering from Northeastern and enjoy building systems that blend hardware, software, and signal processing.
+    I'm a senior embedded software engineer with experience building real-time, multi-threaded systems in C++ and Python. At MITRE, I developed a configurable GNSS/GPS receiver for the NTS-3 satellite program and worked on next-gen GPS technologies. My background also includes research in medical imaging and sensor systems, with published work on an implantable cancer sensor and optical imaging. I hold a B.S. in Electrical and Computer Engineering from Northeastern and enjoy building systems that blend hardware, software, and signal processing.
 
 experiences:
   title: Experiences
   info:
-  - role: Embedded Software Engineer
+  - role: Senior Embedded Software Engineer
     time: September 2022 - Present
     company: The MITRE Corporation
     details: |
-      - Designed and delivered a configurable multi-platform, multi-threaded, event-driven GNSS/GPS receiver in C++ targeting Linux which supports 200+ experiments for the NTS-3 experimental satellite program
-      - Built components and tools for the development of cutting-edge GPS technologies (cryptographic concepts, signal definitions/modulations, and data encodings) for the NTS-3 program
-      - Optimized CPU and memory usage within components to meet tight real-time budgets
-      - Diagnosed and resolved 100+ defects spanning multiple threads, increasing CI coverage and improving system stability
-      - Containerized and streamlined builds and releases with Docker; saved 3+ hours per deployment
-      - Authored user and developer documentation, and provided ongoing support to users, developers, and partner programs leveraging the receiver
+      - Developed a multi-threaded, event-driven C++17 GNSS/GPS system on Linux supporting a multitude of applications
+      - Owned development of core components spanning signal processing pipelines, data encoding/decoding, and cryptography-related functionality
+      - Enhanced Python interfaces and internal tooling to improve usability, static analysis, and long-term maintainability
+      - Optimized CPU and memory usage, eliminating bottlenecks and meeting real-time performance constraint
+      - Resolved complex concurrency and timing issues, enabling stable system operation for 3+ months
+      - Containerized build, test, and release workflows using Docker, reducing deployment time by 3+ hours
+      - Authored user and developer documentation and provided technical support to cross-functional users and teams
 
   - role: Advanced Wireless Research Experience (AWARE) Fellow
     time: May 2021 - July 2021
