@@ -74,13 +74,15 @@ experiences:
     time: September 2022 - Present
     company: The MITRE Corporation
     details: |
-      - Developed a multi-threaded, event-driven C++17 GNSS/GPS system on Linux supporting a multitude of applications
-      - Owned development of core components spanning signal processing pipelines, data encoding/decoding, and cryptography-related functionality
-      - Enhanced Python interfaces and internal tooling to improve usability, static analysis, and long-term maintainability
-      - Optimized CPU and memory usage, eliminating bottlenecks and meeting real-time performance constraint
-      - Resolved complex concurrency and timing issues, enabling stable system operation for 3+ months
+      - Developed a multi-threaded, event-driven C++17 GNSS/GPS system on Linux supporting multiple applications
+      - Owned development of core components spanning hardware/FPGA drivers, embedded platform bring-up, signal processing pipelines, telemetry, data encoding/decoding, cryptography-related functionality, and CI infrastructure
+      - Developed Python interfaces and tooling to improve debugging, usability, static analysis, and long-term maintainability
+      - Built Python CLI tools and Vue.js web dashboard for real-time system monitoring
+      - Optimized CPU and memory usage, eliminating bottlenecks and meeting real-time performance constraints
+      - Resolved complex concurrency and timing issues, enabling stable system operation over multi-month deployments
       - Containerized build, test, and release workflows using Docker, reducing deployment time by 3+ hours
       - Authored user and developer documentation and provided technical support to cross-functional users and teams
+      - Used Git and GitLab for version control, collaborative development, and code reviews across several repositories
 
   - role: Advanced Wireless Research Experience (AWARE) Fellow
     time: May 2021 - July 2021
